@@ -20,11 +20,11 @@ p {
 }
 
 .user-guide {
-    width: 100%;
-    height: 500px;
+    max-width: 100%;
+    height: auto;
     margin: 0px 0px 0px 0px;
-    background-image: url("pricefx_guide.png");
     background-repeat: no-repeat;
+    overflow-x: auto;
 }
 
 .downloadBtn {
