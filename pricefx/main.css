@@ -50,6 +50,12 @@ a {
 }
 
 .footer {
+    color: darkslategrey !important;
     text-align: center;
     margin-bottom: 50px;
+}
+
+.email {
+    color: darkslategrey !important;
+    text-decoration: underline;
 }
