@@ -33,12 +33,11 @@ a:hover {
   color: #0c79ba;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+a.text-faded:hover {
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -82,6 +81,15 @@ img::selection {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+}
+
+.thumbnail {
+  width: auto;
+  text-align: center;
+}
+
+.studioImage {
+  max-width: 200px;
 }
 
 #mainNav {
@@ -219,7 +227,7 @@ header.masthead p {
 }
 
 .service-box {
-  max-width: 400px;
+  max-width: 1000px;
 }
 
 .portfolio-box {
